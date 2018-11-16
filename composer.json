@@ -33,5 +33,6 @@
   "extra": {
     "app-dir": "apps",
     "web-dir": "public"
-  }
+  },
+  "minimum-stability": "dev"
 }
