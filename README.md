@@ -18,7 +18,7 @@ How to install
 
 #### Using Composer (*recommended*)
 
-Best way to install Boilerplate would be Composer, if you didn't install it
+Best way to install Scelet of Phalcon would be Composer, if you didn't install it
 
 Run code in the terminal: 
 
