@@ -3,7 +3,7 @@
 [![Phalconist](http://phalconist.com/artdevue/phalcon-scelet/default.svg)](http://phalconist.com/artdevue/phalcon-scelet)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
-_This is a Boilerplate application written on Phalcon framework for the performance boost. This project created to develop applications in an easy way._ 
+_This is a Scelet of Phalcon application written on Phalcon framework for the performance boost. This project created to develop applications in an easy way._ 
 ###### Includes
 * ENV
 * Multimodality
