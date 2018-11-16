@@ -1,0 +1,30 @@
+<?php
+/**
+ * Created by Artdevue
+ * User: artdevue - IndexController.php
+ * Date: %date%
+ * Time: %time%
+ * Project: phalcon-blank
+ *
+ * Class IndexController
+ * @package Apps\%namec%\Controllers
+ */
+
+namespace Apps\%namec%\Controllers;
+
+use Phalcon\Mvc\View,
+    Phalcon\Mvc\Dispatcher;
+
+class IndexController extends BaseController
+{
+
+    public function initialize()
+    {
+        parent::initialize();
+    }
+
+    public function indexAction()
+    {
+
+    }
+}

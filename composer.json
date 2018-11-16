@@ -1,0 +1,37 @@
+{
+  "name": "artdevue/phalcon-scelet",
+  "description": "Scelet of Phalcon.",
+  "url": "https://github.com/artdevue/phalcon-scelet",
+  "license": "MIT",
+  "type": "project",
+  "keywords": [ "phalcon", "skeleton", "blank", "api", "extension", "framework", "high load"],
+  "require": {
+    "php": ">=7.0",
+    "filp/whoops": "^2.1",
+    "vlucas/phpdotenv": "^2.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "predis/predis": "^1.1",
+    "symfony/console": "*",
+    "phalcon/zephir": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Library\\": "library/"
+    },
+    "files": [
+      "library/support/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Valentyn Rasulov",
+      "email": "artdevue@yahoo.com"
+    }
+  ],
+  "extra": {
+    "app-dir": "apps",
+    "web-dir": "public"
+  }
+}

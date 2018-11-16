@@ -1,2 +1,6 @@
-/cache/
-/config/development/
+composer.lock
+.idea/
+vendor/
+*.log
+cache/*.php
+/public/src/vendor/
