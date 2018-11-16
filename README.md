@@ -23,8 +23,7 @@ Best way to install Scelet of Phalcon would be Composer, if you didn't install i
 Run code in the terminal: 
 
 ```bash
-composer create-project artdevue/phalcon-scelet /path/to/install
-cd /path/to/install
+composer create-project artdevue/phalcon-scelet -s dev
 composer update
 bower update
 ```
