@@ -1,6 +1,6 @@
 # Scelet of Phalcon (Current version of v0.5-beta)
 =========
-[![Phalconist](http://phalconist.com/artdevue/phalcon-scelet/default.svg)](http://phalconist.com/artdevue/phalcon-scelet)
+[![Phalconist](https://phalconist.phalconphp.com/artdevue/phalcon-scelet/default.svg)](https://phalconist.phalconphp.com/artdevue/phalcon-scelet)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 _This is a Scelet of Phalcon application written on Phalcon framework for the performance boost. This project created to develop applications in an easy way._ 
