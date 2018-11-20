@@ -13,7 +13,11 @@ $server_name = $_SERVER['SERVER_NAME'];
 
 return new \Phalcon\Config([
     'debug'        => env('APP_DEBUG', false),
-    'debugbar_api' => [], // If it is empty then IP check will not be done.
+    // If all your IP and debug is true here, you will see a debugbar. Example local: ::1 or localhost
+    'debugbar_api' => [
+        //'::1',
+        //'localhost'
+    ],
 
     'base_uri'  => env('APP_BASE', ''),
     'site_url'  => env('APP_URL', ''),

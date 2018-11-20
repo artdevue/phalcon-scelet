@@ -17,10 +17,8 @@ use Phalcon\Loader,
     Phalcon\Mvc\Dispatcher,
     Phalcon\Mvc\View\Engine\Volt,
     Phalcon\Mvc\ModuleDefinitionInterface;
-use Phalcon\Logger;
 use Phalcon\Http\Request;
 use Phalcon\Logger\Adapter\File as FileAdapter;
-use Phalcon\Mvc\Application;
 
 abstract class AbstractModule implements ModuleDefinitionInterface
 {
@@ -153,14 +151,14 @@ abstract class AbstractModule implements ModuleDefinitionInterface
     /**
      * Register module Config
      */
-    protected function registerConfig(DiInterface $di)
+    protected function registerConfig()
     {
         /**
          * Read configuration
          */
-        if (file_exists($this->path . "/config/config.php"))
+        if (file_exists($this->path . '/config/config.php'))
         {
-            $config = include $this->path . "/config/config.php";
+            $config = include $this->path . '/config/config.php';
             $this->di->set('config', $this->config->merge($config), true);
         }
     }
@@ -172,7 +170,7 @@ abstract class AbstractModule implements ModuleDefinitionInterface
         // This component makes use of adapters to store the logged messages.
         $di->setShared('logger', function () use ($module)
         {
-            return new FileAdapter(PROJECT_PATH . "storage/logs/" . $module . ".log");
+            return new FileAdapter(PROJECT_PATH . 'storage/logs/' . $module . '.log');
         });
     }
 
@@ -267,9 +265,11 @@ abstract class AbstractModule implements ModuleDefinitionInterface
         }
 
         /**
-         * If the active debug then connect
+         * If the active debug then connect and in the array your API
+         *
+         * @link config/config.php#L16
          */
-        if ($debug && (count($debugbar_api) == 0 || in_array($request->getClientAddress(), $debugbar_api)))
+        if ($debug && !empty($debugbar_api) && in_array($request->getClientAddress(), (array) $debugbar_api))
         {
             (new \Library\PDW\DebugWidget($di, $serviceNames));
         }
