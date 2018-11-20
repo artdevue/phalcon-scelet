@@ -4,7 +4,7 @@
  * User: artdevue - AbstractModule.php
  * Date: 25.02.17
  * Time: 16:44
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class AbstractModule  * @package Apps\Commons
  */

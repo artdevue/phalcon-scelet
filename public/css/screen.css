@@ -827,6 +827,10 @@ main {
     color: #979797;
 }
 
+.page-code {
+    color: #979797;
+}
+
 @media (max-width: 630px), (max-width: 630px) {
     .error-code {
         font-size: 5.8em;
@@ -875,6 +879,10 @@ main {
 
 .error-stack-function {
     font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* The error screens. */

@@ -53,7 +53,7 @@ After setup you’ll have multimodule apps.
 ### ENV
 It is often helpful to have different configuration values based on the environment where the application is running. For example, you may wish to use a different cache driver locally than you do on your production server.
 The main file for the project is in the project root `.env`.
-If you need to add a configuration for a different IP, you just need to add the configuration file [config_local.php](config/config_local.php) IP and the name of the file that will be used for this IP. For example:
+If you need to add a configuration for a different IP of Server, you just need to add the configuration file [config_local.php](config/config_local.php) IP and the name of the file that will be used for this IP. For example:
 ```php
 return [
         '192.168.100.2' => '.env_local'
@@ -148,14 +148,22 @@ The example of use in the controller:
 $accepted = $this->trans->_("validation.accepted", ['attribute' => 'test']);
 ```
 or
-```
+```php
 __("validation.accepted", ['attribute' => 'test'])
 ```
 The example of use in the template volt:
-```html
+```twig
 {{ trans._("validation.accepted", ['attribute': 'test']) }}
 ```
 
+Get current active language
+```php
+$this->config->get('lang_active');
+```
+or
+```twig
+{{ config.lang_active }}
+```
 ### Using Debug Widget
 You just need to activate `debug` in the config file or `APP_DEBUG` in the [.env](.env) file.
 If you want the debug bar to be shown only to individual users, simply add the user’s IP [configuration file](config/config.php) to the `debugbar_api` array.

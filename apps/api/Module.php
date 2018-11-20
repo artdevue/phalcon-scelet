@@ -13,7 +13,7 @@ use Phalcon\Logger\Adapter\File as FileAdapter;
  * User: artdevue - Module.php
  * Date: 25.02.17
  * Time: 16:41
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Module  */
 class Module extends AbstractModule

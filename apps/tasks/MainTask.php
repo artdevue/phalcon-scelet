@@ -4,7 +4,7 @@
  * User: artdevue - MainTask.php
  * Date: 26.02.17
  * Time: 04:53
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 class MainTask extends \Phalcon\Cli\Task

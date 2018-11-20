@@ -5,7 +5,7 @@
  * User: artdevue - ModulesTask.php
  * Date: 28.02.17
  * Time: 00:54
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 class ModulesTask extends \Phalcon\Cli\Task
 {

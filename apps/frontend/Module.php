@@ -13,7 +13,7 @@ use Phalcon\Queue\Beanstalk;
  * User: artdevue - Module.php
  * Date: 25.02.17
  * Time: 16:40
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Module  */
 class Module extends AbstractModule

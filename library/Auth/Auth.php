@@ -4,7 +4,7 @@
  * User: artdevue - Auth.php
  * Date: 25.02.17
  * Time: 17:39
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Auth  * @package Library\Auth
  */

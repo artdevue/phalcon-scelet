@@ -4,7 +4,7 @@
  * User: artdevue - routes.php
  * Date: %date%
  * Time: %time%
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 $route->add($home_slesh, [

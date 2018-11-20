@@ -10,7 +10,7 @@ use Phalcon\Mvc\Dispatcher as MvcDispatcher;
  * User: artdevue - Module.php
  * Date: %date%
  * Time: %time%
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Module
  */

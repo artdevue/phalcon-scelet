@@ -4,7 +4,7 @@
  * User: artdevue - IndexController.php
  * Date: 25.02.17
  * Time: 18:43
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class IndexController  * @package Apps\Frontend\Controllers
  */

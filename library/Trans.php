@@ -4,7 +4,7 @@
  * User: artdevue - Trans.php
  * Date: 22.04.17
  * Time: 00:56
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Trans
  * @package Library

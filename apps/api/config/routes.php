@@ -4,7 +4,7 @@
  * User: artdevue - routes.php
  * Date: 25.02.17
  * Time: 17:46
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 /*$route->add('/:params', [

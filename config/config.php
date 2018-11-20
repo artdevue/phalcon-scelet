@@ -4,7 +4,7 @@
  * User: artdevue - gonfig.php
  * Date: 25.02.17
  * Time: 15:33
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 $sceme       =
@@ -57,6 +57,10 @@ return new \Phalcon\Config([
         ],
         'ua' => [
             'name'                => 'Український',
+            'default_date_format' => 'd-m-Y H:i'
+        ],
+        'ru' => [
+            'name'                => 'Русский',
             'default_date_format' => 'd-m-Y H:i'
         ]
     ],

@@ -1,0 +1,61 @@
+<?php
+/**
+ * Created by Artdevue.
+ * User: artdevue - validation.php
+ * Date: 20/11/2018
+ * Time: 15:49
+ * Project: PhalconScelet
+ */
+
+return [
+    "default"              => "Значение по умолчанию.",
+    "accepted"             => "Вы должны принять %attribute%.",
+    "active_url"           => "Поле %attribute% должно быть URL.",
+    "after"                => "Поле %attribute% должно быть дата после %date%.",
+    "alpha"                => "Поле %attribute% может содержать только буквы.",
+    "alpha_dash"           => "Поле %attribute% может содержать только буквы, цифры и тире.",
+    "alpha_num"            => "Поле %attribute% может содержать только буквы и цифры.",
+    "array"                => "Поле %attribute% должно быть массивом.",
+    "before"               => "Поле %attribute% должно быть дата перед %date%.",
+    "between.numeric"      => "Поле %attribute% має бути між %min% і %max%.",
+    "between.file"         => "Поле %attribute% должно быть от %min% до %max% Килобайт.",
+    "between.string"       => "Поле %attribute% должно быть от %min% до %max% символов.",
+    "between.array"        => "Поле %attribute% должно содержать %min% - %max% элементов",
+    "boolean"              => "Поле %attribute% должно быть истинным или ложным.",
+    "confirmed"            => "Поле %attribute% не совпадает с подтверждением.",
+    "date"                 => "Недопустимо значение поля %attribute%, поле должно быть дата.",
+    "date_format"          => "Поле %attribute% не соответствует формату %format%.",
+    "different"            => "Поле %attribute% и %other% должны отличаться.",
+    "digits"               => "Поле %attribute% должно состоять из %digits% знаков",
+    "digits_between"       => "Поле %attribute% должно быть не менее %min% и не более %max% знаков.",
+    "email"                => "Поле %attribute% имеет неверный формат.",
+    "exists"               => "Выбранное значение для %attribute% уже существует.",
+    "image"                => "Поле %attribute% должно быть картинкой.",
+    "in"                   => "Выбранное значение для %attribute% неверное.",
+    "integer"              => "Поле %attribute% должно быть целым числом.",
+    "ip"                   => "Поле %attribute% должна быть полной IP-адресу.",
+    "max.numeric"          => "Поле %attribute% должно быть не более %max%.",
+    "max.file"             => "Поле %attribute% должно быть не более %max% Килобайт.",
+    "max.string"           => "Поле %attribute% должно быть не более %max% символов.",
+    "max.array"            => "Поле %attribute% не может иметь более %max% элементов.",
+    "mimes"                => "Поле %attribute% должно быть файлом одного из типов: %values%.",
+    "min.numeric"          => "Поле %attribute% должно быть не менее %min%.",
+    "min.file"             => "Поле %attribute% должно быть не менее %min% Килобайт.",
+    "min.string"           => "Поле %attribute% должны быть не короче %min% символов.",
+    "min.array"            => "Поле %attribute% должно иметь по крайней мере %min% элементов.",
+    "not_in"               => "Выбранное значение для %attribute% неверное",
+    "numeric"              => "Поле %attribute% должно быть числом.",
+    "regex"                => "Поле %attribute% имеет неверный формат.",
+    "required"             => "Поле %attribute% обязательное для заполнения.",
+    "required_if"          => "Поле %attribute% обязательное для заполнения, если %other% присутній %value%.",
+    "required_with"        => "Поле %attribute% обязательное для заполнения, если %values% присутствует.",
+    "required_without"     => "Поле %attribute% обязательное для заполнения, если %values% нет.",
+    "required_without_all" => "Поле %attribute% обязательное для заполнения, если от %values% присутствует",
+    "same"                 => "Значение %attribute% должно совпадать с %other%.",
+    "size.numeric"         => "Поле %attribute% должно содержать %size% цифр",
+    "size.file"            => "Поле %attribute% мдолжно быть %size% Килобайт.",
+    "size.string"          => "Поле %attribute% должно быть длиной в%size% символов.",
+    "size.array"           => "Поле %attribute% должно содержать %size% элементов.",
+    "unique"               => "Такое значение поля %attribute% уже существует.",
+    "url"                  => "Поле %attribute% имеет неверный формат.",
+];

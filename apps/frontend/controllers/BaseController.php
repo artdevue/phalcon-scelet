@@ -4,7 +4,7 @@
  * User: artdevue - BaseController.php
  * Date: 25.02.17
  * Time: 17:01
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class ControllerBase  * @package Apps\Frontend\Controllers
  */
@@ -47,7 +47,9 @@ class BaseController extends Controller
     public function initialize()
     {
         // default initialization header style
-        $this->assets->collection('header');
+        $this->assets->collection('header')
+            ->addCss('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700', false, false)
+            ->addCss('css/screen.css');
 
         // default initialization footer script
         $this->assets->collection('footer');

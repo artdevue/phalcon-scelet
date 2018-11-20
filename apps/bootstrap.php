@@ -4,7 +4,7 @@
  * User: artdevue - bootstrap.php
  * Date: 25.02.17
  * Time: 17:19
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 require_once PROJECT_PATH . 'vendor/autoload.php';

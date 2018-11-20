@@ -4,7 +4,7 @@
  * User: artdevue - ServiceProvider.php
  * Date: 25.02.17
  * Time: 15:44
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class ServiceProvider
  * @package Apps

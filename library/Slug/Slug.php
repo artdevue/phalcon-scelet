@@ -4,7 +4,7 @@
  * User: artdevue - Slug.php
  * Date: 25.02.17
  * Time: 17:41
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Slug  * @package Library\Slug
  */

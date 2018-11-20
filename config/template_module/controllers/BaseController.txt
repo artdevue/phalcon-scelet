@@ -4,7 +4,7 @@
  * User: artdevue - BaseController.php
  * Date: %date%
  * Time: %time%
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class ControllerBase
  * @package Apps\%namec%\Controllers

@@ -4,7 +4,7 @@
  * User: artdevue - cli.php
  * Date: 26.02.17
  * Time: 04:46
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 date_default_timezone_set('UTC');

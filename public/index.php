@@ -4,7 +4,7 @@
  * User: artdevue - index.php
  * Date: 25.02.17
  * Time: 15:46
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 define('PHALCONSTART', microtime(true));

@@ -7,8 +7,11 @@
  * Project: Core-Skeleton-PH
  */
 
-//If it is empty then IP check will not be done.
+/**
+ * If you want to have your own settings, add your server IP here
+ * If it is empty then IP check will not be done.
+ */
 
 return [
-        '192.168.100.2' => '.env_local'
+        '192.168.100.3' => '.env_local'
     ];

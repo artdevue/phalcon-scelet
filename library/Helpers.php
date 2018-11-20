@@ -4,7 +4,7 @@
  * User: artdevue - Helpers.php
  * Date: 25.02.17
  * Time: 15:41
- * Project: phalcon-blank
+ * Project: PhalconScelet
  *
  * Class Helpers
  * @package Library

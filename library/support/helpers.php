@@ -4,7 +4,7 @@
  * User: artdevue - helpers.php
  * Date: 25.02.17
  * Time: 16:00
- * Project: phalcon-blank
+ * Project: PhalconScelet
  */
 
 function array_get($array, $key, $default = null)
