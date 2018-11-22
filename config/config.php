@@ -7,10 +7,6 @@
  * Project: PhalconScelet
  */
 
-$sceme       =
-    !empty($_SERVER['REQUEST_SCHEME']) ? $_SERVER['REQUEST_SCHEME'] : (isset($_SERVER['HTTPS']) ? 'https' : 'http');
-$server_name = $_SERVER['SERVER_NAME'];
-
 return new \Phalcon\Config([
     'debug'        => env('APP_DEBUG', false),
     // If all your IP and debug is true here, you will see a debugbar. Example local: ::1 or localhost
