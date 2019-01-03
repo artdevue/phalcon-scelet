@@ -12,23 +12,25 @@ define('PROJECT_PATH', dirname(dirname(__FILE__)) . '/');
 
 use Phalcon\Mvc\Application,
     Phalcon\Loader,
+    Phalcon\Logger,
+    Phalcon\Logger\Adapter\File as FileAdapter,
     Phalcon\Di\Exception;
 
 date_default_timezone_set('UTC');
 
 try
 {
-
     require_once PROJECT_PATH . 'apps/bootstrap.php';
 
     //debug
     if ($config->debug)
     {
+        error_reporting(E_ALL);
         $debug = new \Phalcon\Debug();
         $debug->listen();
     } else
     {
-        error_reporting(0);
+        //error_reporting(0);
     }
 
     $loader = new Loader();
@@ -90,13 +92,13 @@ try
     if (!$config->debug)
     {
         // Log the exception
-        $logger = new Logger($config->application->errorLog);
-        $logger->error($e->getMessage());
-        $logger->error($e->getTraceAsString());
+        $logger = new FileAdapter($config->application->errorLog);
+        $logger->error('test');
         // Show an static error page
-        $response = new Response();
-        $response->redirect('500');
+        $response = new \Phalcon\Http\Response();
+        $response->setContent('Fatal Error. Please view the log file');
         $response->send();
+        die();
     } else
     {
         echo " PhalconException : happened in " . get_class($e) . " class <br/> \n";
