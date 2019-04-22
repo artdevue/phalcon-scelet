@@ -81,11 +81,11 @@ try
 
     $application->registerModules($modules);
 
-    //echo $application->handle()->getContent();
+    echo $application->handle()->getContent();
 
-    $response = $application->handle();
+    //$response = $application->handle();
 
-    $response->send();
+    //$response->send();
 
 } catch (Exception $e)
 {

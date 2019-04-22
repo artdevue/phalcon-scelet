@@ -40,7 +40,11 @@ class Trans extends Component
                 $basename = $info->getBasename('.php');
                 $array    = $this->fetchArray($message_dir . $filename);
                 $array    = array_combine(
-                    array_map(create_function('$k', 'return "' . $basename . '.".$k;'), array_keys($array)),
+                    array_map(
+                        function($k) use ($basename) {
+                            return $basename . '.'. $k;
+                        },
+                        array_keys($array)),
                     $array
                 );
 
